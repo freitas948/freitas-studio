@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freitas Studio - Fotografia de Eventos</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Lato', sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+    header {
+      background-color: #000;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid gold;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('hero.jpg') no-repeat center center/cover;
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+    .buttons a {
+      padding: 10px 20px;
+      margin: 10px;
+      border: 2px solid white;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+    .buttons a:hover {
+      background-color: gold;
+      color: black;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      color: gold;
+      margin-bottom: 40px;
+    }
+    .portfolio img {
+      width: 100%;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 5px;
+    }
+    .contact-form button {
+      padding: 15px 30px;
+      background-color: gold;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      border-top: 2px solid gold;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Freitas Studio</h1>
+  <nav>
+    <a href="#portfolio">Portfólio</a>
+    <a href="#services">Serviços</a>
+    <a href="#about">Sobre</a>
+    <a href="#contact">Contato</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Capturamos Emoções, Eternizamos Momentos</h1>
+  <div class="buttons">
+    <a href="#portfolio">Ver Portfólio</a>
+    <a href="#contact">Agendar Sessão</a>
+  </div>
+</section>
+
+<section id="portfolio">
+  <h2>Portfólio</h2>
+  <div class="portfolio">
+    <img src="casamento.jpg" alt="Casamento">
+    <img src="aniversario.jpg" alt="Aniversário">
+    <img src="corporativo.jpg" alt="Corporativo">
+  </div>
+</section>
+
+<section id="services">
+  <h2>Serviços</h2>
+  <p>Oferecemos cobertura completa para casamentos, aniversários, eventos corporativos e muito mais.</p>
+  <ul>
+    <li>Pacote Essencial: 4h de cobertura | 150 fotos editadas</li>
+    <li>Pacote Completo: 8h de cobertura | 300 fotos + mini vídeo highlights</li>
+    <li>Serviços Extras: Álbum, Drone, Making-of</li>
+  </ul>
+</section>
+
+<section id="about">
+  <h2>Sobre</h2>
+  <p>Fundado por [Seu Nome], o Freitas Studio transforma momentos especiais em memórias inesquecíveis através da fotografia de eventos. Mais que imagens, contamos histórias.</p>
+</section>
+
+<section id="contact">
+  <h2>Contato</h2>
+  <form class="contact-form">
+    <input type="text" placeholder="Nome" required>
+    <input type="email" placeholder="E-mail" required>
+    <input type="text" placeholder="Tipo de Evento">
+    <input type="text" placeholder="Data do Evento">
+    <textarea placeholder="Mensagem" rows="5"></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 Freitas Studio. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
